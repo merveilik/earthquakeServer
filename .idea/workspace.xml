@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="befa5989-ca11-4d83-8e2c-1ba34324e949" name="Default Changelist" comment="" />
+    <list default="true" id="befa5989-ca11-4d83-8e2c-1ba34324e949" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/merve/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/merve/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Requester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/merve/Requester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/merve/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/merve/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/merve/ServerThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BinarySemaphore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/City.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Request.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RequestType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Requester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Response.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ServerThread.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +32,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,7 +43,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1UWBYtLkCLwPq7ENIYx7Ven4FyO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -46,14 +68,14 @@
   </component>
   <component name="RunManager" selected="Application.Server">
     <configuration name="Requester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Requester" />
+      <option name="MAIN_CLASS_NAME" value="com.merve.Requester" />
       <module name="merve" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Server" />
+      <option name="MAIN_CLASS_NAME" value="com.merve.Server" />
       <module name="merve" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -77,28 +99,39 @@
       <option name="presentableId" value="Default" />
       <updated>1575462521208</updated>
       <workItem from="1575462526473" duration="1685000" />
-      <workItem from="1575464289526" duration="18502000" />
+      <workItem from="1575464289526" duration="19760000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ServerThread.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/merve/ServerThread.java</url>
           <line>43</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ServerThread.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/merve/ServerThread.java</url>
           <line>48</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ServerThread.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/merve/ServerThread.java</url>
           <line>34</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>

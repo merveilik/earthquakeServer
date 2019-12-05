@@ -1,4 +1,7 @@
+package com.merve;
+
 import com.google.gson.Gson;
+import com.google.gson.stream.JsonToken;
 
 import java.io.*;
 import java.net.ServerSocket;
@@ -18,6 +21,7 @@ public class Server {
 
         try {
             ServerSocket server = new ServerSocket(80);
+            System.out.println("LISTENING");
             while (true) {
                 Socket socket = server.accept();
                 ServerThread thread = new ServerThread(socket);

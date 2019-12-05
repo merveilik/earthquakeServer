@@ -1,3 +1,5 @@
+package com.merve;
+
 import com.google.gson.Gson;
 
 import java.io.DataInputStream;
@@ -20,7 +22,7 @@ public class Requester {
         String responseLine;
         System.out.println("here");
         while (!(responseLine = input.readLine()).equals("&&")) {
-            System.out.println("Server: " + responseLine);
+            System.out.println("com.merve.Server: " + responseLine);
 
         }
     }

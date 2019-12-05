@@ -1,3 +1,5 @@
+package com.merve;
+
 public class City {
     String name;
     String date;

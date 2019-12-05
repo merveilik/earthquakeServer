@@ -1,4 +1,4 @@
-import com.google.gson.Gson;
+package com.merve;
 
 import java.io.*;
 import java.net.Socket;
@@ -45,7 +45,7 @@ public class ServerThread extends Thread {
                         String city = cityAndMessage.substring(0,cityAndMessage.indexOf(":"));
                         String message = cityAndMessage.substring(cityAndMessage.indexOf(":"));
                         /*String city = type.substring(type.indexOf("report")+7);
-                        Server.incrementCounterForCity(city);*/
+                        com.merve.Server.incrementCounterForCity(city);*/
                         Server.updateMessagesOfACity(message,city);
                         break;
                 }
