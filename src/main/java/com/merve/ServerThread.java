@@ -39,12 +39,12 @@ public class ServerThread extends Thread {
                     break;
 
                 } else {
-                    String cityAndMessage = type.substring(type.indexOf("report")+7);
-                    String city = cityAndMessage.substring(0,cityAndMessage.indexOf(":"));
-                    String message = cityAndMessage.substring(cityAndMessage.indexOf(":"));
-                        /*String city = type.substring(type.indexOf("report")+7);
-                        com.merve.Server.incrementCounterForCity(city);*/
-                    Server.updateMessagesOfACity(message,city);
+                    //String cityAndMessage = type.substring(type.indexOf("report")+7);
+                    //String city = cityAndMessage.substring(0,cityAndMessage.indexOf(":"));
+                    //String message = cityAndMessage.substring(cityAndMessage.indexOf(":"));
+                        String city = type.substring(type.indexOf("report")+7);
+                        com.merve.Server.incrementCounterForCity(city);
+                    //Server.updateMessagesOfACity(message,city);
                     break;
                 }
             }
