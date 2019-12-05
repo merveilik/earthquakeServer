@@ -30,7 +30,6 @@ public class ServerThread extends Thread {
                 String type = data.substring(data.indexOf("type")+5);
                 System.out.print(type);
 
-
                 if(type.equals("getList")) {
                     System.out.println();
                     City[] c = Server.listCities();
@@ -43,7 +42,7 @@ public class ServerThread extends Thread {
                     //String city = cityAndMessage.substring(0,cityAndMessage.indexOf(":"));
                     //String message = cityAndMessage.substring(cityAndMessage.indexOf(":"));
                         String city = type.substring(type.indexOf("report")+7);
-                        com.merve.Server.incrementCounterForCity(city);
+                        Server.incrementCounterForCity(city);
                     //Server.updateMessagesOfACity(message,city);
                     break;
                 }
