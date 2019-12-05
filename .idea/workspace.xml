@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="befa5989-ca11-4d83-8e2c-1ba34324e949" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/merve/City.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/merve/Request.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Requester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/merve/Requester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/merve/Response.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/merve/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/merve/ServerThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BinarySemaphore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/City.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Request.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RequestType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Requester.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Response.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Server.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ServerThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/merve/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/merve/ServerThread.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575462521208</updated>
       <workItem from="1575462526473" duration="1685000" />
-      <workItem from="1575464289526" duration="19760000" />
+      <workItem from="1575464289526" duration="20115000" />
     </task>
     <servers />
   </component>

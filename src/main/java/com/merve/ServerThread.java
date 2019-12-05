@@ -30,26 +30,23 @@ public class ServerThread extends Thread {
                 String type = data.substring(data.indexOf("type")+5);
                 System.out.print(type);
 
-                switch(type) {
 
-                    case "getList":
+                if(type.equals("getList")) {
+                    System.out.println();
+                    City[] c = Server.listCities();
+                    String s = arrayToStringHelper(c);
+                    out2.print(s);
+                    break;
 
-                        System.out.println();
-                        City [] c = Server.listCities();
-                        String s = arrayToStringHelper(c);
-                        out2.print(s);
-                        break;
-
-                    default:
-                        String cityAndMessage = type.substring(type.indexOf("report")+7);
-                        String city = cityAndMessage.substring(0,cityAndMessage.indexOf(":"));
-                        String message = cityAndMessage.substring(cityAndMessage.indexOf(":"));
+                } else {
+                    String cityAndMessage = type.substring(type.indexOf("report")+7);
+                    String city = cityAndMessage.substring(0,cityAndMessage.indexOf(":"));
+                    String message = cityAndMessage.substring(cityAndMessage.indexOf(":"));
                         /*String city = type.substring(type.indexOf("report")+7);
                         com.merve.Server.incrementCounterForCity(city);*/
-                        Server.updateMessagesOfACity(message,city);
-                        break;
+                    Server.updateMessagesOfACity(message,city);
+                    break;
                 }
-
             }
         } catch (Exception e) {
             e.printStackTrace();
