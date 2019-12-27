@@ -3,7 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="befa5989-ca11-4d83-8e2c-1ba34324e949" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cities.json" beforeDir="false" afterPath="$PROJECT_DIR$/cities.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/merve/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/merve/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/merve/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/merve/ServerThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/merve/BinarySemaphore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/merve/BinarySemaphore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/merve/City.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/merve/City.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/merve/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/merve/Request.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/merve/RequestType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/merve/RequestType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/merve/Requester.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/merve/Requester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/merve/Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/merve/Response.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/merve/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/merve/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/merve/ServerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/merve/ServerThread.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +45,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -85,7 +97,13 @@
       <option name="presentableId" value="Default" />
       <updated>1575462521208</updated>
       <workItem from="1575462526473" duration="1685000" />
-      <workItem from="1575464289526" duration="21309000" />
+      <workItem from="1575464289526" duration="22503000" />
+      <workItem from="1576074268112" duration="2729000" />
+      <workItem from="1576088235875" duration="452000" />
+      <workItem from="1576254348804" duration="3608000" />
+      <workItem from="1576413502827" duration="392000" />
+      <workItem from="1576581568672" duration="2722000" />
+      <workItem from="1576685065952" duration="413000" />
     </task>
     <servers />
   </component>
@@ -97,31 +115,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/merve/ServerThread.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/merve/ServerThread.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/merve/ServerThread.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
